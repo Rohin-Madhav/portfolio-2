@@ -7,7 +7,6 @@ const ROLES = [
   'Full Stack Developer',
   'React Specialist',
   'Node.js Engineer',
-  'UI/UX Enthusiast',
 ]
 
 /* ── tiny floating particle ── */
@@ -248,12 +247,11 @@ const Hero = () => {
 
             {/* floating stat chips */}
             <div className="hero-chip chip-top">
-              <span className="chip-icon">🚀</span>
-              <span>10+ Projects</span>
+              <span className="chip-icon">⚡</span>
+              <span>End-to-End Dev</span>
             </div>
             <div className="hero-chip chip-bottom">
-              <span className="chip-icon">⚡</span>
-              <span>2+ Yrs Exp</span>
+              <span className="chip-icon">🚀</span>
             </div>
           </div>
         </div>
