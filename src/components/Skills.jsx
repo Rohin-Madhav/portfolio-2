@@ -27,6 +27,11 @@ const skills = [
     color: '#61dafb',
   },
   {
+    name: 'Next.js',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
+    color: '#ffffff',
+  },
+  {
     name: 'Tailwind CSS',
     logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
     color: '#38bdf8',
@@ -67,14 +72,14 @@ const skills = [
     color: '#d63aff',
   },
   {
-    name: 'OAuth 2.0',
-    logo: 'https://www.svgrepo.com/show/448236/oauth.svg',
-    color: '#eb5424',
+    name: 'Bootstrap',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
+    color: '#7952b3',
   },
   {
-    name: 'Stripe',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg',
-    color: '#635bff',
+    name: 'Figma',
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+    color: '#f24e1e',
   },
 ]
 
