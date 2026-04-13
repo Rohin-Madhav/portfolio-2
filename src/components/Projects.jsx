@@ -3,6 +3,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ExternalLink, Github } from 'lucide-react'
 
+
 gsap.registerPlugin(ScrollTrigger)
 
 const projects = [
@@ -23,12 +24,28 @@ const projects = [
     icon: '🏥',
   },
   {
-    title: 'Product Listing App',
-    description: 'Modern product listing application with reusable components, advanced filtering capabilities, and a sleek, responsive UI design.',
-    tech: ['React', 'Tailwind CSS', 'JavaScript'],
-    liveUrl: '#', githubUrl: '#',
+    title: 'Employee Management System',
+    description: 'Manage employee records with ease using this modern, responsive employee management system featuring advanced filtering and intuitive UI design.',
+    tech: ['React', 'MongoDB', 'Express.js', 'Node.js','CRUD'],
+    liveUrl: 'https://manage-employeeee.netlify.app', githubUrl: 'https://github.com/Rohin-Madhav/Employee-Management-System.git',
     accent: '#ec4899',
-    icon: '📦',
+    icon: '👥',
+  },
+  {
+    title: 'Football Club Website',
+    description: 'A modern, responsive football club website featuring an intuitive UI design and advanced filtering capabilities.',
+    tech: ['React', 'tailwindcss'],
+    liveUrl: 'https://rmfc.netlify.app', githubUrl: 'https://github.com/Rohin-Madhav/football-academy.git',
+    accent: '#ec4899',
+    icon: '⚽',
+  },
+  {
+    title: 'Expense Tracker',
+    description: 'Track your daily expenses with ease using this modern, responsive expense tracker featuring an intuitive UI design and advanced filtering capabilities.',
+    tech: ['React', 'tailwindcss'],
+    liveUrl: 'https://mark-ur-expense.netlify.app', githubUrl: 'https://github.com/Rohin-Madhav/expense-tracker.git',
+    accent: '#6366f1',
+    icon: '💰',
   },
 ]
 
