@@ -46,9 +46,9 @@ const Footer = () => {
           {/* socials */}
           <div ref={iconsRef} className="flex gap-3">
             {[
-              { href: 'https://github.com', icon: <Github className="w-5 h-5" />, label: 'GitHub', color: '#818cf8' },
-              { href: 'https://linkedin.com', icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', color: '#38bdf8' },
-              { href: 'mailto:rohin@example.com', icon: <Mail className="w-5 h-5" />, label: 'Email', color: '#f472b6' },
+              { href: 'https://github.com/Rohin-Madhav', icon: <Github className="w-5 h-5" />, label: 'GitHub', color: '#818cf8' },
+              { href: 'https://www.linkedin.com/in/rohin-madhav-2a551b358', icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', color: '#38bdf8' },
+              { href: 'mailto:rohinmadhavk7@gmail.com', icon: <Mail className="w-5 h-5" />, label: 'Email', color: '#f472b6' },
             ].map(({ href, icon, label, color }) => (
               <a
                 key={label}
