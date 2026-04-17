@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Mail, MapPin, Send, Github, Linkedin } from 'lucide-react'
+import { Mail, MapPin, Send, Github, Linkedin, Instagram } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -78,7 +78,7 @@ const Contact = () => {
           {/* LEFT info */}
           <div ref={leftRef} className="space-y-5">
             {[
-              { icon: Mail, label: 'Email', value: 'rohin@example.com', href: 'mailto:rohin@example.com', color: '#6366f1' },
+              { icon: Mail, label: 'Email', value: 'rohinmadhavk7@gmail.com', href: 'mailto:rohinmadhavk7@gmail.com', color: '#6366f1' },
               { icon: MapPin, label: 'Location', value: 'India', href: null, color: '#8b5cf6' },
             ].map(({ icon: Icon, label, value, href, color }) => (
               <div key={label} className="contact-info-card glass-strong rounded-2xl p-6"
@@ -103,9 +103,9 @@ const Contact = () => {
               <p className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: 'var(--text-muted)' }}>Find me on</p>
               <div className="flex gap-3">
                 {[
-                  { icon: Github, href: 'https://github.com', label: 'GitHub', color: '#818cf8' },
-                  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', color: '#38bdf8' },
-                  { icon: Mail, href: 'mailto:rohin@example.com', label: 'Email', color: '#f472b6' },
+                  { icon: Github, href: 'https://github.com/Rohin-Madhav', label: 'GitHub', color: '#818cf8' },
+                  { icon: Linkedin, href: 'https://www.linkedin.com/in/rohin-madhav-2a551b358', label: 'LinkedIn', color: '#38bdf8' },
+                  { icon: Instagram, href: 'https://instagram.com', label: 'Instagram  ', color: '#f472b6' },
                 ].map(({ icon: Icon, href, label, color }) => (
                   <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined}
                     rel="noreferrer" aria-label={label} className="contact-social-btn"
